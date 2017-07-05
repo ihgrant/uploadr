@@ -1,0 +1,19 @@
+{
+    "name": "uploadr",
+    "version": "1.0.0",
+    "description": "An image uploader and server",
+    "scripts": {
+        "start": "supervisor -w . ./index.js"
+    },
+    "main": "index.js",
+    "author": "ihgrant",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "multer": "^1.3.0"
+    },
+    "devDependencies": {
+        "supervisor": "^0.12.0"
+    }
+}
