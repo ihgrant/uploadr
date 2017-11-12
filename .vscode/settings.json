@@ -1,4 +1,8 @@
-// Place your settings in this file to overwrite default and user settings.
 {
-    "editor.formatOnSave": true
+    // Place your settings in this file to overwrite default and user settings.
+    "editor.formatOnSave": true,
+    "editor.rulers": [100],
+    "flow.useNPMPackagedFlow": true,
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 4
 }
